@@ -1,14 +1,15 @@
 import React from "react";
-import { SafeAreaView, Text, View } from "react-native";
+import { SafeAreaView, ScrollView, Text, View } from "react-native";
 
 const HomeScreen = () => {
     return (
-        <SafeAreaView style={{backgroundColor:"#6495ed",flex:1}}>
-            <View>
-                <Text>
-                    gffh
-                </Text>
-            </View>
+        <SafeAreaView style={{ flex: 1 }}>
+            <ScrollView>
+                <View>
+                    <Text>fkfjl</Text>
+                </View>
+            </ScrollView>
+
         </SafeAreaView>
 
     )
